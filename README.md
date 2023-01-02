@@ -24,19 +24,19 @@ The game is 100% completable in VR, but please keep these issues in mind:
 2. Download the latest version of the mod from https://github.com/wouterpleizier/AlbaVR/releases/latest
 3. Extract the contents of both zip files to the folder that contains the game's executable (`Alba.exe`)
 
-The contents of your game folder should now look something like this (make sure the folder and files in bold exist):
+The contents of your game folder should now look something like this (make sure the folder and files in **`bold`** exist):
 
-:file_folder: `Alba_Data`
-:file_folder: **`BepInEx`**
-:file_folder: `MonoBleedingEdge`
-:page_facing_up: `Alba.exe`
-:page_facing_up: **`doorstop_config.ini`**
-:page_facing_up: **`Play with Oculus.bat`**
-:page_facing_up: **`Play with SteamVR.bat`**
-:page_facing_up: **`Play without VR.bat`**
-:page_facing_up: `UnityCrashHandler64.exe`
-:page_facing_up: `UnityPlayer.dll`
-:page_facing_up: **`VRMODE.txt`**
+:file_folder: Alba_Data\
+:file_folder: **`BepInEx`**\
+:file_folder: MonoBleedingEdge\
+:page_facing_up: Alba.exe\
+:page_facing_up: **`doorstop_config.ini`**\
+:page_facing_up: **`Play with Oculus.bat`**\
+:page_facing_up: **`Play with SteamVR.bat`**\
+:page_facing_up: **`Play without VR.bat`**\
+:page_facing_up: UnityCrashHandler64.exe\
+:page_facing_up: UnityPlayer.dll\
+:page_facing_up: **`VRMODE.txt`**\
 :page_facing_up: **`winhttp.dll`**
 
 To enable the mod and start playing, run `Play with SteamVR.bat` or `Play with Oculus.bat` depending on which headset you use. This setting is remembered, so after the first time you can just launch the game normally. To switch back to non-VR mode, run `Play without VR.bat`.
