@@ -1,4 +1,6 @@
 # AlbaVR
+[![header](https://user-images.githubusercontent.com/8166218/210326371-0053000a-646b-4e7f-9c4f-2be1263d711c.png)](https://www.youtube.com/watch?v=24XYvVYDqC0)
+
 VR mod for Alba: A Wildlife Adventure.
 
 ## Features
@@ -20,11 +22,11 @@ The game is 100% completable in VR, but please keep these issues in mind:
 - Some visual effects lack polish, like when the screen fades to black.
 
 ## Installation/configuration
-1. Download `BepInEx_x64_5.4.21.0.zip` from https://github.com/BepInEx/BepInEx/releases/tag/v5.4.21
+1. Download `BepInEx_x64_5.4.21.0.zip` (not the x86 version!) from https://github.com/BepInEx/BepInEx/releases/tag/v5.4.21
 2. Download the latest version of the mod from https://github.com/wouterpleizier/AlbaVR/releases/latest
 3. Extract the contents of both zip files to the folder that contains the game's executable (`Alba.exe`)
 
-The contents of your game folder should now look something like this (make sure the folder and files in **`bold`** exist):
+The contents of your game folder should now look something like this (make sure that the folder and files marked in **`bold`** all exist):
 
 :file_folder: Alba_Data\
 :file_folder: **`BepInEx`**\
@@ -36,8 +38,9 @@ The contents of your game folder should now look something like this (make sure 
 :page_facing_up: **`Play without VR.bat`**\
 :page_facing_up: UnityCrashHandler64.exe\
 :page_facing_up: UnityPlayer.dll\
-:page_facing_up: **`VRMODE.txt`**\
 :page_facing_up: **`winhttp.dll`**
+
+If you're using the Steam version of the game, you also have to right-click the game in your libary, go to Properties and then turn off `Use Desktop Game Theatre while SteamVR is active` (if Steam warns you the game doesn't support VR when launching it, just ignore the message and click OK).
 
 To enable the mod and start playing, run `Play with SteamVR.bat` or `Play with Oculus.bat` depending on which headset you use. This setting is remembered, so after the first time you can just launch the game normally. To switch back to non-VR mode, run `Play without VR.bat`.
 
